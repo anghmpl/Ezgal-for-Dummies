@@ -22,6 +22,4 @@ import sys
 ```
 
 ## Manual ##
-The EzGal documetation is not available anymore, so I scanned my version:
-
-**$${\color{red}EzGal\_Documentation.pdf}$$**
+The EzGal documentation is not available, so I scanned my version: **EzGal_Documentation.pdf**
