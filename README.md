@@ -13,7 +13,7 @@ Disclaimer:  EzGal is a Python program written by Conor Mancone and Anthony Gonz
 
 
 ## Install ##
-I installed it directly in my jupyter environment, to make sure there are no problems with the path.
+I installed it directly in my jupyter environment to make sure there are no problems with the path.
 
 ```python
 import sys
@@ -22,5 +22,6 @@ import sys
 ```
 
 ## Manual ##
-The EzGal documetation is not available anymore, so I scanned my version **$${\color{red} EzGal_Documentation.pdf $$**
+The EzGal documetation is not available anymore, so I scanned my version:
 
+**$${\color{red}EzGal\_Documentation.pdf}$$**
