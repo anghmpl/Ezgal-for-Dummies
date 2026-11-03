@@ -1,4 +1,4 @@
-# Ezgal-for-python-3-jupyter
+# EzGal-for-python-3-jupyter #
 Disclaimer:  EzGal is a Python program written by Conor Mancone and Anthony Gonzales (2012) for calculating observable parameters (magnitudes, colours, mass-to-light ratios...) for arbitrary stellar population (SPS) models.
 (https://iopscience.iop.org/article/10.1086/666502/pdf )
 
@@ -9,13 +9,18 @@ Disclaimer:  EzGal is a Python program written by Conor Mancone and Anthony Gonz
 
 * This repository also includes a folder with filter functions.
 
-* The original webpage which provided the included models (e.g. Bruzual & Charlot 2003, Maraston 2005...) does not exist anymore, so I added a few models to this repository(bc03_ssp_*.model) which you can use to run the program.
+* The original webpage which provided the models (e.g. Bruzual & Charlot 2003, Maraston 2005...) does not exist anymore, so I added a few models to this repository ( bc03_ssp_*.model ) which you can use to run the program.
 
 
-**Install**
-I installed it directly in my jupyter environment, to make sure there is no problems with the set path to the executables. 
+## Install ##
+I installed it directly in my jupyter environment, to make sure there are no problems with the path.
 
-
+```python
 import sys
 !{sys.executable} -m pip uninstall ezgal -y
 !{sys.executable} -m pip install git+https://github.com/cmancone/easyGalaxy.git
+```
+
+## Manual ##
+The EzGal documetation is not available anymore, so here is a scanned version (sorry about the quality).
+
