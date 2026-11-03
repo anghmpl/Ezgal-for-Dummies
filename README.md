@@ -3,8 +3,23 @@ Disclaimer:  EzGal is a Python program written by Conor Mancone and Anthony Gonz
 (https://iopscience.iop.org/article/10.1086/666502/pdf )
 
 
-* The original version runs under Python 2, so several modules have discontinued libraries and functions, especially the cosmology module.
+* The original version runs under Python 2, so several modules have discontinued and/or renamed libraries and functions, especially the cosmology module.
 * As I am running python 3.14, I have adjusted those to work under python 3.14/ Jupyter, NOT in a python 2 environment.
+
+### Examples ###
+* Indefinit is now defined via numpy, NOT scipy, and fuctions for integration have been renamed, e.g.integrate.simps and  integrate.romberg.
+* Instead of changing the name at every single instance in the code, I redefined them:
+ 
+```python  
+import scipy
+from scipy import *
+scipy.inf = np.inf
+scipy.integrate.simps = scipy.integrate.simpson
+scipy.integrate.romberg = scipy.integrate.quad
+
+```
+
+
 * Here is the link to the original GitHub https://github.com/cmancone/easyGalaxy .
 
 * This repository also includes a folder with filter functions.
@@ -13,7 +28,7 @@ Disclaimer:  EzGal is a Python program written by Conor Mancone and Anthony Gonz
 
 
 ## Install ##
-I installed it directly in my jupyter environment to make sure there are no problems with the path.
+If your EzGal survies the next Fedora upgrade, congratulations; otherwise, you might have to reinstall it. I installed it directly in my jupyter environment to make sure there are no problems with the path. 
 
 ```python
 import sys
