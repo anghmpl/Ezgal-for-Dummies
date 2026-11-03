@@ -37,4 +37,5 @@ import sys
 ```
 
 ## Manual ##
-The EzGal documentation is not available, so I scanned my version: **EzGal_Documentation.pdf**
+The EzGal documentation is not available, so I scanned my version: **EzGal_Documentation.pdf** https://github.com/anghmpl/Ezgal-for-python-3-jupyter/blob/main/EzGal_documentation.pdf
+
