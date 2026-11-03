@@ -10,8 +10,8 @@ Models include:
  - Percival 2009
 
 
-* For now, I added a folder with numerous Bruzual & Charlot models **BC2003**; others might follow.
-* ** Filter
+* **BC2003**; contains models for Bruzual Charlot 2003,
+* **filters** contains the filter transmission functions for all kinds of cameras (e.g. LSST, SDSS, HST....)
 
 
 The original version runs under Python 2, so several modules have discontinued and/or renamed libraries and functions, especially the cosmology module. As I am running python 3.14, I have adjusted those to work under python 3.14/ Jupyter, NOT in a python 2 environment.
