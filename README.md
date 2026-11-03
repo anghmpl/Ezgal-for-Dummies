@@ -6,14 +6,18 @@ Models include:
  - Bruzual & Charlot 2003 
  - Maraston 2005
  - Charlot & Bruzual 2007
- -  Charlot 2009
+ - Charlot 2009
  - Percival 2009
+
+
+* For now, I added a folder with numerous Bruzual & Charlot models **BC2003**; others might follow.
+* ** Filter
 
 
 The original version runs under Python 2, so several modules have discontinued and/or renamed libraries and functions, especially the cosmology module. As I am running python 3.14, I have adjusted those to work under python 3.14/ Jupyter, NOT in a python 2 environment.
 
 ### Examples ###
-* "Inf" = Infinite, important for all integrations is now defined via numpy, NOT scipy, also fuctions have been renamed, e.g.integrate.simps and  integrate.romberg.
+* "Inf" = Infinite, important for all integrations is now defined via numpy, NOT scipy, also functions have been renamed, e.g.integrate.simps and  integrate.romberg.
 * Instead of changing the name at every single instance in the code, I redefined them:
  
 ```python
@@ -31,7 +35,6 @@ scipy.integrate.romberg = scipy.integrate.quad
 
 * This repository also includes a folder with filter functions.
 
-* The original webpage which provided the models (e.g. Bruzual & Charlot 2003, Maraston 2005...) does not exist anymore, so I added a few models to this repository ( bc03_ssp_*.model ) which you can use to run the program.
 
 
 ## Install ##
