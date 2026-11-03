@@ -1,6 +1,6 @@
 # Ezgal-for-python-3-jupyter
 Disclaimer:  EzGal is a Python program written by Conor Mancone and Anthony Gonzales (2012).
-((Check with https://archive.eso.org/wdb/wdb/eso/sched_rep_arc/form)
+(https://iopscience.iop.org/article/10.1086/666502/pdf )
 Includes updates to modules that were originally written for Python 2 
 
 
