@@ -22,5 +22,5 @@ import sys
 ```
 
 ## Manual ##
-The EzGal documetation is not available anymore, so here is a scanned version: EzGal_Documentation.pdf  (sorry about the quality).
+The EzGal documetation is not available anymore, so I scanned my version EzGal_Documentation.pdf
 
