@@ -7,3 +7,4 @@ Disclaimer:  EzGal is a Python program written by Conor Mancone and Anthony Gonz
 
 * This repository also includes a folder with filter functions.
 
+* The original webpage which provided the included models (e.g. Bruzual & Charlot 2003, Maraston 2005...) does not exist anymore, so I added a few models to this repository.
