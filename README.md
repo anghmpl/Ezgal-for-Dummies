@@ -1,16 +1,23 @@
 # EzGal-for-python-3-jupyter #
 Disclaimer:  EzGal is a Python program written by Conor Mancone and Anthony Gonzales (2012) for calculating observable parameters (magnitudes, colours, mass-to-light ratios...) for arbitrary stellar population (SPS) models.
 (https://iopscience.iop.org/article/10.1086/666502/pdf )
+Models include:
+
+ - Bruzual & Charlot 2003 
+ - Maraston 2005
+ - Charlot & Bruzual 2007
+ -  Charlot 2009
+ - Percival 2009
 
 
-* The original version runs under Python 2, so several modules have discontinued and/or renamed libraries and functions, especially the cosmology module.
-* As I am running python 3.14, I have adjusted those to work under python 3.14/ Jupyter, NOT in a python 2 environment.
+The original version runs under Python 2, so several modules have discontinued and/or renamed libraries and functions, especially the cosmology module. As I am running python 3.14, I have adjusted those to work under python 3.14/ Jupyter, NOT in a python 2 environment.
 
 ### Examples ###
 * "Inf" = Infinite, important for all integrations is now defined via numpy, NOT scipy, also fuctions have been renamed, e.g.integrate.simps and  integrate.romberg.
 * Instead of changing the name at every single instance in the code, I redefined them:
  
-```python  
+```python
+import numpy as np
 import scipy
 from scipy import *
 scipy.inf = np.inf
