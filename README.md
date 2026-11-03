@@ -10,3 +10,12 @@ Disclaimer:  EzGal is a Python program written by Conor Mancone and Anthony Gonz
 * This repository also includes a folder with filter functions.
 
 * The original webpage which provided the included models (e.g. Bruzual & Charlot 2003, Maraston 2005...) does not exist anymore, so I added a few models to this repository(bc03_ssp_*.model) which you can use to run the program.
+
+
+**Install**
+I installed it directly in my jupyter environment, to make sure there is no problems with the set path to the executables. 
+
+
+import sys
+!{sys.executable} -m pip uninstall ezgal -y
+!{sys.executable} -m pip install git+https://github.com/cmancone/easyGalaxy.git
