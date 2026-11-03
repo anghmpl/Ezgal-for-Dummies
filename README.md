@@ -7,7 +7,7 @@ Disclaimer:  EzGal is a Python program written by Conor Mancone and Anthony Gonz
 * As I am running python 3.14, I have adjusted those to work under python 3.14/ Jupyter, NOT in a python 2 environment.
 
 ### Examples ###
-* "Indef" = Indefinite, important for all integrations is now defined via numpy, NOT scipy, also fuctions have been renamed, e.g.integrate.simps and  integrate.romberg.
+* "Inf" = Infinite, important for all integrations is now defined via numpy, NOT scipy, also fuctions have been renamed, e.g.integrate.simps and  integrate.romberg.
 * Instead of changing the name at every single instance in the code, I redefined them:
  
 ```python  
