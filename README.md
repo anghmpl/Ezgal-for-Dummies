@@ -7,7 +7,7 @@ Disclaimer:  EzGal is a Python program written by Conor Mancone and Anthony Gonz
 * As I am running python 3.14, I have adjusted those to work under python 3.14/ Jupyter, NOT in a python 2 environment.
 
 ### Examples ###
-* Indefinit is now defined via numpy, NOT scipy, and fuctions for integration have been renamed, e.g.integrate.simps and  integrate.romberg.
+* "Indef" = Indefinite, important for all integrations is now defined via numpy, NOT scipy, also fuctions have been renamed, e.g.integrate.simps and  integrate.romberg.
 * Instead of changing the name at every single instance in the code, I redefined them:
  
 ```python  
@@ -20,7 +20,7 @@ scipy.integrate.romberg = scipy.integrate.quad
 ```
 
 
-* Here is the link to the original GitHub https://github.com/cmancone/easyGalaxy .
+* Link to the original GitHub https://github.com/cmancone/easyGalaxy .
 
 * This repository also includes a folder with filter functions.
 
@@ -28,11 +28,11 @@ scipy.integrate.romberg = scipy.integrate.quad
 
 
 ## Install ##
-If your EzGal survies the next Fedora upgrade, congratulations; otherwise, you might have to reinstall it. I installed it directly in my jupyter environment to make sure there are no problems with the path. 
+If your EzGal survives the next Fedora upgrade, congratulations; otherwise, you might have to reinstall it. I installed it directly in my jupyter environment to make sure there are no problems with the path. 
 
 ```python
 import sys
-!{sys.executable} -m pip uninstall ezgal -y
+!{sys.executable} -m pip uninstall ezgal -y     
 !{sys.executable} -m pip install git+https://github.com/cmancone/easyGalaxy.git
 ```
 
