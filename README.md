@@ -15,7 +15,7 @@ Models include:
 The original version runs under Python 2, so several modules have been discontinued and/or renamed libraries and functions, especially the cosmology module. As I am running python 3.14, I have adjusted those to work under python 3.14/ Jupyter, NOT in a python 2 environment.
 
 ### Examples ###
-* "Inf" = Infinite; important for all integrations is now defined via NumPy, NOT SciPy. Functions have been renamed, e.g.integrate.simps and  integrate.romberg.
+* "Inf" = Infinite; important for all integrations is now defined via NumPy, NOT SciPy. Functions have been renamed, e.g. integrate.simps and  integrate.romberg.
 * Instead of changing the name at every single instance in the code, I redefined them:
  
 ```python
