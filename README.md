@@ -14,7 +14,7 @@ Models include:
 
 The original version runs under Python 2, so several modules have been discontinued and/or renamed libraries and functions, especially the cosmology module. As I am running python 3.14, I have adjusted those to work under python 3.14/ Jupyter, NOT in a python 2 environment.
 
-### Examples ###
+### Examples of changed functions, librariers ###
 * "Inf" = Infinite; important for all integrations is now defined via NumPy, NOT SciPy. Functions have been renamed, e.g. integrate.simps and  integrate.romberg.
 * Instead of changing the name at every single instance in the code, I redefined them:
  
@@ -35,7 +35,7 @@ scipy.integrate.romberg = scipy.integrate.quad
 
 
 
-## Install ##
+## Installation ##
 If your EzGal survives the next Fedora upgrade, congratulations; otherwise, you might have to reinstall it. I installed it directly in my jupyter environment to make sure there are no problems with the path. 
 
 ```python
