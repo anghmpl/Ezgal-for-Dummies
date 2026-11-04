@@ -1,4 +1,4 @@
-# EzGal-for-python-3-jupyter #
+# EzGal for Dummies #
 Disclaimer:  EzGal is a Python program written by Conor Mancone and Anthony Gonzales (2012) for calculating observable parameters (magnitudes, colours, mass-to-light ratios...) for arbitrary stellar population (SPS) models.
 (https://iopscience.iop.org/article/10.1086/666502/pdf )
 
