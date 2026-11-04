@@ -10,12 +10,12 @@ Models include:
  - Percival 2009
 
 * **filters** contains the filter transmission functions for all kinds of cameras (e.g. LSST, SDSS, HST....)
-* **bc03_ssp.model** are 2 BC03 models,to run the EzGal 
+* **bc03_ssp_z_0.008_chab.model**  and **bc03_ssp_z_0.02_chab.model** are 2 BC03 models for a single stellar population, with a metallicity of 0.008 and 0.02, respectively. 
 
-The original version runs under Python 2, so several modules have discontinued and/or renamed libraries and functions, especially the cosmology module. As I am running python 3.14, I have adjusted those to work under python 3.14/ Jupyter, NOT in a python 2 environment.
+The original version runs under Python 2, so several modules have been discontinued and/or renamed libraries and functions, especially the cosmology module. As I am running python 3.14, I have adjusted those to work under python 3.14/ Jupyter, NOT in a python 2 environment.
 
 ### Examples ###
-* "Inf" = Infinite, important for all integrations is now defined via numpy, NOT scipy, also functions have been renamed, e.g.integrate.simps and  integrate.romberg.
+* "Inf" = Infinite; important for all integrations is now defined via NumPy, NOT SciPy. Functions have been renamed, e.g.integrate.simps and  integrate.romberg.
 * Instead of changing the name at every single instance in the code, I redefined them:
  
 ```python
