@@ -14,7 +14,7 @@ Models include:
 * **bc03_ssp_z_0.008_chab.model**  and **bc03_ssp_z_0.02_chab.model** are 2 BC03 models for a single stellar population, with a metallicity of 0.008 and 0.02, respectively. Using EzGal you can interpolate between available metallicities.
 
 ### Changes ###
-The original version runs under Python 2 or older python 3 versions, so several modules have been discontinued and/or renamed libraries and functions, especially the cosmology module. As I am running python 3.14, I have adjusted those to work under python 3.14/ Jupyter, NOT in a python 2 environment.
+The original version runs under Python 2 or older python 3 versions, so several modules have been discontinued and/or renamed libraries and functions, especially the cosmology module. As I am running python 3.14, I have adjusted those to work under python 3.14/ Jupyter.
 
 #### Examples of changed functions, librariers ####
 * "Inf" = Infinite; important for all integrations is now defined via NumPy, NOT SciPy. Functions have been renamed, e.g. integrate.simps and  integrate.romberg.
