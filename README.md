@@ -36,7 +36,7 @@ scipy.integrate.romberg = scipy.integrate.quad
 
 
 ## Installation ##
-If your EzGal survives the next Fedora upgrade, congratulations; otherwise, you might have to reinstall it. I installed it directly in my jupyter environment to make sure there are no problems with the path. 
+If your EzGal survives the next Fedora upgrade, congratulations; otherwise, you might have to reinstall it. I installed it directly from my jupyter environment to make sure there are no problems with the path. 
 
 ```python
 import sys
