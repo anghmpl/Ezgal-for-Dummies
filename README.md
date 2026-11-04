@@ -9,10 +9,8 @@ Models include:
  - Charlot 2009
  - Percival 2009
 
-
-* **BC2003**; contains models for Bruzual Charlot 2003,
 * **filters** contains the filter transmission functions for all kinds of cameras (e.g. LSST, SDSS, HST....)
-
+* **bc03_ssp.model** are 2 BC03 models,to run the EzGal 
 
 The original version runs under Python 2, so several modules have discontinued and/or renamed libraries and functions, especially the cosmology module. As I am running python 3.14, I have adjusted those to work under python 3.14/ Jupyter, NOT in a python 2 environment.
 
