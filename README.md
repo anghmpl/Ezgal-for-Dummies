@@ -15,7 +15,7 @@ Disclaimer:  EzGal is a Python program written by Conor Mancone and Anthony Gonz
 
 **Things you can do:**
 
- - Define your own star formation histories: add delays, combine bursts of star formation, define exponential decay times (tau)
+ - Define your own star formation histories: add delays, combine bursts of star formation, define exponential decay times (&tau; in Gyr) 
  - Interpolate between available metallicities
  - add your own filter functions
 
