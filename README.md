@@ -45,7 +45,7 @@ scipy.integrate.romberg = scipy.integrate.quad
 
 
 ## Installation ##
-If your EzGal survives the next Fedora upgrade, congratulations; otherwise, you might have to reinstall it. I installed it directly from my jupyter environment to make sure there are no problems with the path. 
+If your EzGal installation survives your latest system upgrade, congratulations; otherwise, you might have to reinstall it. I installed it directly from my jupyter environment to make sure there are no problems with the path. 
 Here are some of my settings:
    - Fedora 44
    - numpy 2.4.6
@@ -59,5 +59,5 @@ import sys
 ```
 
 ## Manual ##
-I could not finde the online EzGal documentation anymore, so I scanned my version: **EzGal_Documentation.pdf** https://github.com/anghmpl/Ezgal-for-python-3-jupyter/blob/main/EzGal_documentation.pdf
+I could not find the online EzGal documentation anymore, so I scanned my version: **EzGal_Documentation.pdf** https://github.com/anghmpl/Ezgal-for-python-3-jupyter/blob/main/EzGal_documentation.pdf
 
