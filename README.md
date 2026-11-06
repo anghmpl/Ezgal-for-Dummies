@@ -59,5 +59,5 @@ import sys
 ```
 However, this is the original version for older Python environments, so keep a copy of all the changed modules somewhere safe (see Sec. **Changes**).
 ## Manual ##
-I could not find the online EzGal documentation anymore, so I scanned my version: **EzGal_Documentation.pdf** https://github.com/anghmpl/Ezgal-for-python-3-jupyter/blob/main/EzGal_documentation.pdf
+I could not find the online EzGal documentation anymore, so I scanned my version: **EzGal_Documentation.pdf** , ask me if you want a copy.
 
